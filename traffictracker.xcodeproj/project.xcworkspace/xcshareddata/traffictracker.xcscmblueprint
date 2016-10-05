@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F29D828D9B66F6154FF14DFB0DA1E21CC8AB238A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F29D828D9B66F6154FF14DFB0DA1E21CC8AB238A" : 9223372036854775807,
+    "9DD8FDFC9346169ABE8E9625C03E19E45F753037" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "734DFFA3-EBBC-467B-9674-041654497F55",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F29D828D9B66F6154FF14DFB0DA1E21CC8AB238A" : "TrafficTrackerIOS\/",
+    "9DD8FDFC9346169ABE8E9625C03E19E45F753037" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "traffictracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "traffictracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ChristianEllis\/TrafficTrackerIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9DD8FDFC9346169ABE8E9625C03E19E45F753037"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vshekar\/TrafficTrackerIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F29D828D9B66F6154FF14DFB0DA1E21CC8AB238A"
+    }
+  ]
+}
