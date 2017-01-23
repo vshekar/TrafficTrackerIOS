@@ -29,7 +29,7 @@
                             <constraint firstItem="NqK-pC-cyV" firstAttribute="bottom" secondItem="otQ-mc-PGE" secondAttribute="top" id="yZ2-Ad-5Rz"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Location" image="location-pin" id="1l1-XT-jf6"/>
+                    <tabBarItem key="tabBarItem" title="Location" image="location-pin" selectedImage="location-pin" id="1l1-XT-jf6"/>
                     <connections>
                         <outlet property="mapView" destination="NqK-pC-cyV" id="JgW-xl-YaB"/>
                     </connections>
@@ -70,7 +70,17 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OKa-lC-6nx">
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OKa-lC-6nx" firstAttribute="leading" secondItem="b3b-cG-pEl" secondAttribute="trailing" constant="58" id="02Z-0j-RtY"/>
+                                                <constraint firstItem="OKa-lC-6nx" firstAttribute="centerY" secondItem="ZCm-1u-FAw" secondAttribute="centerY" id="b7D-BV-VxR"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="OKa-lC-6nx" secondAttribute="trailing" constant="7" id="sgl-rW-fWU"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="2hp-C8-8RL" detailTextLabel="uro-Ej-EWh" style="IBUITableViewCellStyleSubtitle" id="dwX-Uf-Daf">
@@ -94,7 +104,17 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oC-h5-Nrr">
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3oC-h5-Nrr" firstAttribute="centerY" secondItem="P36-rq-XE5" secondAttribute="centerY" id="ByS-4H-M0p"/>
+                                                <constraint firstItem="3oC-h5-Nrr" firstAttribute="leading" secondItem="uro-Ej-EWh" secondAttribute="trailing" constant="40" id="UC5-Zh-cdW"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="3oC-h5-Nrr" secondAttribute="trailing" constant="7" id="qNQ-BY-J4Y"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="47j-Sl-xjW" detailTextLabel="om6-D6-Pf2" style="IBUITableViewCellStyleSubtitle" id="opJ-u1-rbE">
@@ -118,7 +138,17 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Seq-oj-c7P">
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Seq-oj-c7P" firstAttribute="centerY" secondItem="NGn-vQ-pxc" secondAttribute="centerY" id="Vps-R1-Y9J"/>
+                                                <constraint firstItem="Seq-oj-c7P" firstAttribute="leading" secondItem="om6-D6-Pf2" secondAttribute="trailing" constant="54" id="c6L-93-UCe"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Seq-oj-c7P" secondAttribute="trailing" constant="7" id="exX-0q-XDP"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="7mC-ms-YV5" detailTextLabel="GBL-Rf-vNT" style="IBUITableViewCellStyleSubtitle" id="gwc-Db-wFU">
@@ -142,7 +172,17 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-um-LXS">
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9gJ-um-LXS" firstAttribute="leading" secondItem="GBL-Rf-vNT" secondAttribute="trailing" constant="16" id="2sh-Hy-AQu"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="9gJ-um-LXS" secondAttribute="trailing" constant="7" id="YQs-1c-JZd"/>
+                                                <constraint firstItem="9gJ-um-LXS" firstAttribute="centerY" secondItem="prX-pI-8le" secondAttribute="centerY" id="zWs-J9-PaF"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -180,6 +220,34 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="Feedback &amp; Bugs" id="f1p-3K-fFB">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Rdl-T2-5P4" detailTextLabel="Ov4-Fk-vOb" style="IBUITableViewCellStyleSubtitle" id="ty6-8K-fMz">
+                                        <rect key="frame" x="0.0" y="388" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ty6-8K-fMz" id="Lae-1m-LY7">
+                                            <frame key="frameInset" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Have feedback?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rdl-T2-5P4">
+                                                    <frame key="frameInset" minX="15" minY="5" width="123" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tell us how we can improve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ov4-Fk-vOb">
+                                                    <frame key="frameInset" minX="15" minY="25.5" width="154.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="nQk-3s-aOn" id="KDv-A8-nFv"/>
@@ -190,6 +258,10 @@
                     <navigationItem key="navigationItem" id="Lkd-1U-mfn"/>
                     <connections>
                         <outlet property="SettingsDemographics" destination="mvc-r1-h2p" id="zza-c7-zN6"/>
+                        <outlet property="ageField" destination="OKa-lC-6nx" id="PYS-cp-0Jp"/>
+                        <outlet property="genderField" destination="3oC-h5-Nrr" id="naS-aG-Zww"/>
+                        <outlet property="occupationField" destination="9gJ-um-LXS" id="ibN-o8-UhM"/>
+                        <outlet property="raceField" destination="Seq-oj-c7P" id="xPN-Xd-p3t"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dt-eE-OFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
