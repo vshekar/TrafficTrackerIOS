@@ -10,24 +10,24 @@
 		AA49A27D1DB5A5000080AB0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA49A27C1DB5A5000080AB0F /* CoreLocation.framework */; };
 		AA49A27F1DB5AF620080AB0F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA49A27E1DB5AF620080AB0F /* MapViewController.swift */; };
 		AA49A2811DB5BF040080AB0F /* SettingsDemographicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA49A2801DB5BF040080AB0F /* SettingsDemographicsTableViewController.swift */; };
+		AAAD511B1DEAADA500EF0C5F /* SavedLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD511A1DEAADA500EF0C5F /* SavedLocationData.swift */; };
+		AAAD51411DEB48F000EF0C5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAD51401DEB48F000EF0C5F /* Images.xcassets */; };
 		AAF0A86F1DB2BB5600331134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0A86E1DB2BB5600331134 /* AppDelegate.swift */; };
 		AAF0A8741DB2BB5600331134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF0A8721DB2BB5600331134 /* Main.storyboard */; };
-		AAF0A8761DB2BB5600331134 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF0A8751DB2BB5600331134 /* Images.xcassets */; };
 		AAF0A8791DB2BB5600331134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF0A8771DB2BB5600331134 /* LaunchScreen.storyboard */; };
-		AAF0A8841DB2C35700331134 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0A8831DB2C35700331134 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA49A27C1DB5A5000080AB0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AA49A27E1DB5AF620080AB0F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AA49A2801DB5BF040080AB0F /* SettingsDemographicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDemographicsTableViewController.swift; sourceTree = "<group>"; };
+		AAAD511A1DEAADA500EF0C5F /* SavedLocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedLocationData.swift; sourceTree = "<group>"; };
+		AAAD51401DEB48F000EF0C5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AAF0A86B1DB2BB5600331134 /* TrafficTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF0A86E1DB2BB5600331134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF0A8731DB2BB5600331134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAF0A8751DB2BB5600331134 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AAF0A8781DB2BB5600331134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF0A87A1DB2BB5600331134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAF0A8831DB2C35700331134 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 				AAF0A8851DB2C38E00331134 /* View */,
 				AAF0A8861DB2C3A700331134 /* ViewControllers */,
 				AAF0A8871DB2C3D200331134 /* Model */,
-				AAF0A8751DB2BB5600331134 /* Images.xcassets */,
 				AAF0A8771DB2BB5600331134 /* LaunchScreen.storyboard */,
+				AAAD51401DEB48F000EF0C5F /* Images.xcassets */,
 				AAF0A87A1DB2BB5600331134 /* Info.plist */,
 			);
 			path = TrafficTracker;
@@ -101,7 +101,7 @@
 		AAF0A8871DB2C3D200331134 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AAF0A8831DB2C35700331134 /* User.swift */,
+				AAAD511A1DEAADA500EF0C5F /* SavedLocationData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAD51411DEB48F000EF0C5F /* Images.xcassets in Resources */,
 				AAF0A8791DB2BB5600331134 /* LaunchScreen.storyboard in Resources */,
-				AAF0A8761DB2BB5600331134 /* Images.xcassets in Resources */,
 				AAF0A8741DB2BB5600331134 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF0A8841DB2C35700331134 /* User.swift in Sources */,
+				AAAD511B1DEAADA500EF0C5F /* SavedLocationData.swift in Sources */,
 				AA49A27F1DB5AF620080AB0F /* MapViewController.swift in Sources */,
 				AA49A2811DB5BF040080AB0F /* SettingsDemographicsTableViewController.swift in Sources */,
 				AAF0A86F1DB2BB5600331134 /* AppDelegate.swift in Sources */,
